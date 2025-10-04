@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #F7F7F5;
+  color: #3B3B3B;
+  overflow-x: hidden;
+}
+
+.font-irish {
+  font-family: 'Irish Grover', cursive;
+}
+
+.font-josefin {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.font-karantina {
+  font-family: 'Karantina', sans-serif;
+}
